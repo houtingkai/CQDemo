@@ -1,0 +1,155 @@
+KEY,English,Chinese
+HERO_NAME_1,War,战争
+HERO_INTRO_1,war intro,天启四骑士之一
+HERO_NAME_1001,War,战争
+HERO_INTRO_1001,War intro,天启四骑士之一
+HERO_NAME_1002,Leoric,李奥瑞克
+HERO_INTRO_1002,Leoric intro,生前是坎都拉斯的统治者。
+HERO_NAME_1003,Auriaya,欧尔莉亚
+HERO_INTRO_1003,Auriaya intro,奥杜尔守护者之一
+SKILL_NAME_20001,SKILL_NAME_20001,狂暴连斩
+SKILL_NAME_20002,SKILL_NAME_20002,旋风斩
+SKILL_NAME_20003,SKILL_NAME_20003,毁灭降临
+SKILL_NAME_20004,SKILL_NAME_20004,战争怒火
+SKILL_DESC_20001,SKILL_DESC_20001,双手持剑对前方进行6次劈斩，结束后对前方进行突刺，整个过程为霸体状态。
+SKILL_DESC_20002,SKILL_DESC_20002,双手持武器旋转，点击屏幕可移动。
+SKILL_DESC_20003,SKILL_DESC_20003,高高跳起拔出重剑插入地面，以自身为圆心喷发出巨大火柱，范围内的敌人浮空并受到多段攻击。
+SKILL_DESC_20004,SKILL_DESC_20004,生命低于35%时，提高15%攻击力。
+SKILL_NAME_20101,skill name,虚空能量
+SKILL_NAME_20102,skill name,战刃技巧
+SKILL_NAME_20103,skill name,战争怒火
+SKILL_NAME_20201,skill name,暴击
+SKILL_NAME_20202,skill name,吸血光环
+SKILL_NAME_20203,skill name,不死
+SKILL_NAME_20301,skill name,震击
+SKILL_NAME_20302,skill name,宣泄
+SKILL_NAME_20303,skill name,激怒
+SKILL_DESC_20101,Description,描述哦
+SKILL_DESC_20102,Description,描述哦
+SKILL_DESC_20103,Description,描述哦
+SKILL_DESC_20201,Description,描述哦
+SKILL_DESC_20202,Description,描述哦
+SKILL_DESC_20203,Description,描述哦
+SKILL_DESC_20301,Description,描述哦
+SKILL_DESC_20302,Description,描述哦
+SKILL_DESC_20303,Description,描述哦
+ITEM_NAME_110001,Helmet,头盔
+ITEM_NAME_120001,Mail Armor,锁子甲
+ITEM_NAME_130001,Boot,皮靴
+ITEM_NAME_220001,Scroll,锁子甲卷轴
+ITEM_NAME_320001,Scroll Piece,锁子甲卷轴碎片
+ITEM_NAME_310001,Helmet Piece,头盔碎片
+ITEM_NAME_410001,Small VP Potion,小型体力药剂
+ITEM_NAME_420001,Small XP Potion,小型经验药水
+ITEM_NAME_420002,Middle XP Potion,中型经验药水
+ITEM_NAME_420003,Big XP Potion,大经验药水
+ITEM_NAME_430001,sweep,扫荡券
+ITEM_DESC_110001,Helmet,戴在头上可以保护发际线。
+ITEM_DESC_120001,Mail Armor,锁子甲做起来很麻烦，不许弄坏。
+ITEM_DESC_130001,Boot,摩擦摩擦。
+ITEM_DESC_220001,Scroll,可以合成传说中的锁子甲。
+ITEM_DESC_320001,Scroll Piece,可以合成锁子甲卷轴。
+ITEM_DESC_310001,Helmet Piece,可以合成头盔。
+ITEM_DESC_410001,Small VP Potion,喝了它可以回复10点体力。
+ITEM_DESC_420001,Small XP Potion,喝了它可以获得50点英雄经验值。
+ITEM_DESC_420002,Middle XP Potion,喝了它可以获得200点英雄经验值。
+ITEM_DESC_420003,Big XP Potion,喝了它可以获得1200点英雄经验值。
+ITEM_DESC_430001,sweep,可以扫荡一次
+CHANGE_NAME, change name,更改昵称
+EXIT_UNION, exit union,退出公会
+CHANGE_AVATR, change avatar,更换头像
+CHANGE_AVATAR_FRAME, change avatar frame,更换头像框
+TEAM_LEVEL, team lvl.:,战队等级：
+TEAM_EXP, team exp.:,战队经验：
+HERO_MAX_LEVEL, hero max lvl.:,英雄等级上限：
+GAME_ID, game id:,游戏ID：
+UNION_NAME, union name:,公会名字：
+UNION_ID, union id:,公会ID：
+HERO, Hero,英雄
+FRIENDS, Friends,好友
+SWEEP_1, Sweep,扫荡
+SWEEP_10, Sweep ten time,扫荡十次
+PHYSICAL_COSUME, comsume physical,体力消耗:
+CHALLENGE_NUM, challenge times,挑战次数:
+LEVEL_DIFFICULTY, level difficulty,关卡难度
+DROP_POSSIBLE, drop possible,可能掉落
+ITEM_CONTENT,process {0}\n{1},拥有数量:{0}\n需求等级:{1}
+NameHint,please input your name,请输入你的名字
+ATTRIBUTE,attr,属性
+CHARACTER,char,人物
+SKILL,skill,技能
+HERO_INTRO,Hero Intro,英雄介绍
+HERO_GROWTH,Hero Growth,三围成长
+HERO_DETAIL,Hero Detail,详细属性
+STR_GROWTH,strength growth：,力量成长：
+INT_GROWTH,intelligence growth：,智力成长：
+AGI_GROWTH,agility growth：,敏捷成长：
+FORCE,force：,战斗力：
+LEVEL,level：,等级：
+EXP,exp：,经验：
+UPGRADE_STAR,upgrade,升星
+UPGRADE_LEVEL,upgrade,进阶
+SKILL_LEARNING,skill_learning,技能学习
+USE,use,使用
+MAX,max,最大
+ITEM_SELL_SELECT,amount：,选择最大数量
+ITEM_SELL_MONEY,sold price：,获得金钱：
+BASEAD,basead,物理攻击
+BASEAP,baseap,魔法攻击
+DEFENSEAD,defensead,物理防御
+DEFENSEAP,defenseap,魔法防御
+CRITAD,critad,物理暴击
+CRITAP,critap,魔法暴击
+DODGEAD,dodgead,物理闪避
+DODGEAP,dodgeap,魔法闪避
+AGILE,agile,敏捷
+ENDURANCE,endurance,耐力
+ENERGY_GROWTH,energy_growth,能量增长
+ANGER_GROWTH,anger_growth,怒气增长
+AD_PENETRATION,ad_penetration,物理穿透
+AP_PENETRATION,ap_penetration,魔法穿透
+SCENE_NAME_10101,Fire Dragon 1,炙热入口
+SCENE_NAME_10102,Fire Dragon 2,熔岩小道
+SCENE_NAME_10103,Fire Dragon 3,火龙巢穴
+SCENE_DESC_10101,Fire Dragon 1,火龙大陆的入口。
+SCENE_DESC_10102,Fire Dragon 2,火龙大陆的深处。
+SCENE_DESC_10103,Fire Dragon 3,火龙王的宫殿，亚瑟王亲自建造的。
+USER_NAME_HINT,please input your character name,请输入你的角色名
+CONFIRM,confirm,确认
+ALL,all,全部
+EQUIPMENT,equipment,装备
+SCROLL,scroll,卷轴
+FRAGMENT,fragment,碎片
+CONSUME,consume,消耗品
+DETAIL,detail,详情
+SELL,sell,出售
+PRICE,price:,售价:
+BATTLE_STATISTIC,battle statistic,战斗统计
+STRENGTH,strength,力量
+AGILITY,agility,敏捷
+INTELLIGENCE,intelligence,智力
+MAXHP,maxhp,最大生命值
+MAXMP,maxmp,最大魔法值
+HPREGEN,hpregen,生命回复
+MPREGEN,mpregen,魔法回复
+PHYSIC_ATK,physic_atk,物理攻击力
+MAGIC_ATK,magic_atk,魔法攻击力
+PHYSIC_DEF,physic_def,物理防御
+MAGIC_DEF,magic_def,魔法防御
+PHYSIC_CRIT,physic_crit,物理暴击
+MAGIC_CRIT,magic_crit,魔法暴击
+PHYSIC_DODGE,physic_dodge,物理闪避
+MAGIC_DODGE,magic_dodge,魔法闪避
+PHYSIC_PENETRATION,physic_penetration,物理穿透
+MAGIC_PENETRATION,magic_penetration,魔法穿透
+TREAT,treat,治疗效果
+VAMPIRE,vampire,吸血等级
+WALKSPEED,walkSpeed,移动速度
+RUNSPEED,runSpeed,奔跑速度
+ATTACKSPEED,attackSpeed,攻击速度
+MAINATTRIBUTE,mainAttribute,主属性
+CRITICAL_VALUE,critical_value,暴击伤害
+LOADING_TIPS_0,"The higher VIP level,the more rawards you get.","VIP的等级越高,每日领取的道具越多。"
+LOADING_TIPS_1,Not enough energy.,能量点不足的时候无法释放技能。
+LOADING_TIPS_2,Power up.,英雄升星后会变得更强。
+LOADING_TIPS_3,Arena daily reward.,竞技场排名越高，每日获得奖励越好。

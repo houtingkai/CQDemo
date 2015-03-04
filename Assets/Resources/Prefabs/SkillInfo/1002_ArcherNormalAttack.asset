@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58f6444ec3cce944eb6a31793a6ca2a2, type: 3}
+  m_Name: 1002_ArcherNormalAttack
+  m_EditorClassIdentifier: 
+  ID: 1002
+  effectEventInfoList:
+  - index: 1
+    node: self
+    offsetX: 1
+    offsetY: 1
+    lifeSeconds: -1
+    hitType: 0
+    hitScope: .5
+    hitInterval: 1
+    hitCount: 1
+    hitEventIndex: 100
+    skillEffectType: 1
+    effect: Prefabs/Effect/EF_Arrow_Red
+    vx: 3
+    vy: 3
+  hitEventInfoList:
+  - index: 100
+    node: target
+    offsetX: 0
+    offsetY: 0
+    lifeSeconds: .200000003
+    effect: 
+    sound: 
+    hitForceX: 30
+    hitForceY: 0
