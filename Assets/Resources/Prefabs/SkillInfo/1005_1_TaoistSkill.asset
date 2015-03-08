@@ -35,9 +35,9 @@ MonoBehaviour:
     offsetX: 1
     offsetY: 3
     lifeSeconds: 10
-    hitType: 0
+    hitType: 1
     hitScope: 1
-    hitInterval: .200000003
+    hitInterval: .100000001
     hitCount: 1
     hitEventIndex: 100
     skillEffectType: 2
@@ -55,5 +55,5 @@ MonoBehaviour:
     lifeSeconds: .200000003
     effect: 
     sound: 
-    hitForceX: 20
+    hitForceX: 30
     hitForceY: 0
