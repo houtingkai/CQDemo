@@ -27,7 +27,7 @@ MonoBehaviour:
     effect: 
     vx: 0
     vy: 0
-    range: 2.5
+    range: 0
     subEventCount: 3
     subEventId: 2
   - index: 2

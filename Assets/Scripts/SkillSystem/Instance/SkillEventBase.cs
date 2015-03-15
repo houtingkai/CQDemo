@@ -10,13 +10,15 @@ abstract public class SkillEventBase
         End,
     }
 
-    public State state;
+	public State state;
     protected Vector3 pos;
     protected Vector3 startPos;
     protected SkillEventBaseInfo info;
     protected float createTime;
     protected Skill mySkill;
     protected SkillEventBase parent;
+	protected float delayInit;
+
 
     public SkillEventBase(Skill skill, SkillEventBaseInfo info)
     {
@@ -74,8 +76,11 @@ abstract public class SkillEventBase
         {
             case State.Init:
                 {
-                    ChangeState(State.Work);
-                    break;
+					if(Time.time - createTime > delayInit)
+					{
+						ChangeState(State.Work);
+					}
+					break;
                 }
             case State.Work:
                 {

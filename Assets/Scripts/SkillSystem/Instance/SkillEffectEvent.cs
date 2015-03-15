@@ -7,7 +7,6 @@ public class SkillEffectEvent : SkillCollisionEvent
 
     public SkillEffectEvent(Skill skill, SkillEffectEventInfo info): base(skill,info)
     {
-        //base.Init();
     }
 
     public override void Tick()
@@ -39,13 +38,14 @@ public class SkillEffectEvent : SkillCollisionEvent
     {
         float interval = einfo.range / einfo.subEventCount;
 
+		float delayAvg = 0.1f;
         for(int i = 0; i < einfo.subEventCount; i++)
         {
             SkillEffectEvent evt = mySkill.TriggerEffectEvent(einfo.subEventId,this);
-
+			evt.Init();
             Vector3 offset = new Vector3(interval * i, 0, 0);
-            evt.Init();
             evt.AdjustPos(offset);
+			evt.delayInit = delayAvg * i;
         }
 
         ChangeState(State.End);
@@ -123,7 +123,7 @@ public class SkillEffectEvent : SkillCollisionEvent
 
         switch (newState)
         {
-            case State.Init:
+            case State.Work:
                 {
 
                     if (einfo.skillEffectType == SkillEffectEventInfo.SkillEffectType.Melee)

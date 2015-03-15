@@ -73,7 +73,7 @@ public class Skill
             case State.Init:
                 {
                     SkillEffectEvent evt = TriggerEffectEvent(1);
-                    evt.Init();
+					evt.Init();
                     break;
                 }
             case State.Work:

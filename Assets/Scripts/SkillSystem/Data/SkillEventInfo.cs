@@ -75,7 +75,7 @@ public class SkillEffectEventInfo : SkillCollisionEventInfo
     }
 
     public SkillEffectType skillEffectType;
-
+	
     //for Parabola, P2P
     public string effect;
     public float vx;
