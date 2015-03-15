@@ -41,7 +41,7 @@ MonoBehaviour:
     hitCount: 1
     hitEventIndex: 100
     skillEffectType: 2
-    effect: Prefabs/Effect/EF_Meteor_01
+    effect: Prefabs/Effect/EF_FireBallFall
     vx: 3
     vy: -8
     range: 0
