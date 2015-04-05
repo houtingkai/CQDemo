@@ -113,8 +113,12 @@ public class Character : Unit
 
     }
 
+	public bool drawGizmo = true;
+
     public void OnDrawGizmos()
     {
+		if(!drawGizmo)
+			return;
         Vector3 myPos = transform.position;
         Gizmos.DrawWireSphere(myPos, attackRange);
     }
