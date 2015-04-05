@@ -19,18 +19,36 @@ public class Character : Unit
     public float attackInterval = 1.0f;
     [HideInInspector]
     public float lastAttackTime = 0;
-     [HideInInspector]
-    public bool hitBack = false;
+
     private Vector2 velocity = Vector2.zero;
     public int characterIdex;
     [HideInInspector]
     public SkillCastInfo currentSkillCast;
 
-
+	private Vector2 hitForce;
+	private bool hitBack = false;
+	public void SetHitBackForce(Vector2 force, bool on)
+	{
+		hitForce = force;
+		hitBack = on;
+	}
+	
     public void SetVelocity(Vector2 v)
     {
         velocity = v;
     }
+
+	void FixedUpdate()
+	{
+		Debug.Log("=====velocity: " + velocity + ", hitForce: " + hitForce + ", hitBack: " + hitBack + "=======");
+
+		if(!hitBack)
+			rigidbody2D.velocity = velocity;
+		else
+		{
+			rigidbody2D.AddForce(hitForce);
+		}
+	}
 
     [SerializeField, SetProperty("Facing")]
     private int facing = 1; //-1 <- ; 1 ->
@@ -55,11 +73,7 @@ public class Character : Unit
         }
     }
 
-    void FixedUpdate()
-    {
-        if(!hitBack)
-            rigidbody2D.velocity = velocity;
-    }
+
 
 
     public override void init()

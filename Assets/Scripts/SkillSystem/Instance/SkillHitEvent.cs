@@ -21,7 +21,7 @@ public class SkillHitEvent : SkillEventBase
                     if (target is Character)
                     {
                         Character character = target as Character;
-                        character.hitBack = false;
+						character.SetHitBackForce(Vector2.zero,false);
                     }
                     break;
                 }
@@ -40,9 +40,9 @@ public class SkillHitEvent : SkillEventBase
                     {
                         SkillHitEventInfo hitInfo = info as SkillHitEventInfo;
                         Character character = target as Character;
-                        character.gameObject.rigidbody2D.AddForce(new Vector2(hitInfo.hitForceX * character.Facing * -1, hitInfo.hitForceY));
-                        character.hitBack = true;
-                    }
+						Vector2 force = new Vector2(hitInfo.hitForceX * character.Facing * -1, hitInfo.hitForceY);
+						character.SetHitBackForce(force,true);
+					}
                     break;
                 }
         }

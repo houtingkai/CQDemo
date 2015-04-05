@@ -69,6 +69,9 @@ abstract public class SkillCollisionEvent : SkillEventBase
     private void TickEachHit(SkillCollisionEventInfo cinfo)
     {
         List<Unit> hitted = DetectCollision();
+
+		Debug.Log("hitted: " + hitted.Count);
+
         foreach (Unit hit in hitted)
         {
             if(!eachHitCount.ContainsKey(hit))
@@ -78,7 +81,7 @@ abstract public class SkillCollisionEvent : SkillEventBase
 
             if (!eachLastHitCount.ContainsKey(hit))
             {
-                eachLastHitCount.Add(hit, Time.time);
+                eachLastHitCount.Add(hit, 0);
             }
 
             if(Time.time - eachLastHitCount[hit] > cinfo.hitInterval)

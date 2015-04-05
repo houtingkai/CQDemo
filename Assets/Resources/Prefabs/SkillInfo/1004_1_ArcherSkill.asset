@@ -14,7 +14,7 @@ MonoBehaviour:
   ID: 1004_1
   effectEventInfoList:
   - index: 1
-    node: self
+    node: 0
     offsetX: 1
     offsetY: 0
     lifeSeconds: 6
@@ -27,13 +27,16 @@ MonoBehaviour:
     effect: Prefabs/Effect/EF_Arrow_Purple_01
     vx: 9
     vy: 0
+    range: 0
+    subEventCount: 0
+    subEventId: 0
   hitEventInfoList:
   - index: 100
-    node: target
+    node: 0
     offsetX: 0
     offsetY: 0
     lifeSeconds: .200000003
     effect: 
     sound: 
-    hitForceX: 30
+    hitForceX: 50
     hitForceY: 0
