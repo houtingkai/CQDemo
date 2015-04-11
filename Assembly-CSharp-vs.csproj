@@ -184,6 +184,7 @@
      <Compile Include="Assets\Scripts\Background\ScrollScript.cs" />
      <Compile Include="Assets\Scripts\Camera\BattleCamera.cs" />
      <Compile Include="Assets\Scripts\Camera\FollowCamera.cs" />
+     <Compile Include="Assets\Scripts\Character\BoneView.cs" />
      <Compile Include="Assets\Scripts\Character\Character.cs" />
      <Compile Include="Assets\Scripts\Character\MoveScript.cs" />
      <Compile Include="Assets\Scripts\Character\State\Attack.cs" />
