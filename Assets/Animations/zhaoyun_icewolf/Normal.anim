@@ -40783,7 +40783,7 @@ AnimationClip:
   m_Events:
   - time: .300000012
     functionName: NormalAttack
-    data: 1001
+    data: 1007
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
