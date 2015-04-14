@@ -220,6 +220,7 @@ GameObject:
   - 114: {fileID: 37510148}
   - 61: {fileID: 37510150}
   - 50: {fileID: 37510149}
+  - 114: {fileID: 37510153}
   m_Layer: 0
   m_Name: zhaoyun_icewolf
   m_TagString: Untagged
@@ -269,7 +270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camp: 0
   careerType: 0
-  runSpeed: 1
+  runSpeed: 2
   attackRange: 2
   attackInterval: 1
   lastAttackTime: 0
@@ -345,6 +346,18 @@ MonoBehaviour:
   owner: {fileID: 0}
   currentTagHash: 0
   currentNameHash: 0
+--- !u!114 &37510153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: 155e64c2c9b5d4742aa5fcdc9d7efa96,
+    type: 2}
+  m_PrefabInternal: {fileID: 810978866}
+  m_GameObject: {fileID: 37510144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00b953d4c5ee1545aad4ce1ae89d8ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &39974413
 GameObject:
   m_ObjectHideFlags: 0
@@ -2965,7 +2978,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 1535931219
-  m_SortingOrder: 19
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300002, guid: d3605ac0a75a507489ccc1d67470471e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &590615541

@@ -5,6 +5,8 @@ Project("{8840341E-36AA-B640-D613-6BC99AC4C9AE}") = "CQDemo", "Assembly-CSharp.c
 EndProject
 Project("{8840341E-36AA-B640-D613-6BC99AC4C9AE}") = "CQDemo", "Assembly-CSharp-Editor.csproj", "{8923D655-2DF5-8B7F-E928-0629A189261B}"
 EndProject
+Project("{8840341E-36AA-B640-D613-6BC99AC4C9AE}") = "CQDemo", "Assembly-UnityScript.unityproj", "{872C2363-D53C-3DE5-04B8-DC2303EE2F99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{8923D655-2DF5-8B7F-E928-0629A189261B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8923D655-2DF5-8B7F-E928-0629A189261B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8923D655-2DF5-8B7F-E928-0629A189261B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872C2363-D53C-3DE5-04B8-DC2303EE2F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872C2363-D53C-3DE5-04B8-DC2303EE2F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872C2363-D53C-3DE5-04B8-DC2303EE2F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872C2363-D53C-3DE5-04B8-DC2303EE2F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																																																																												GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																																																																										GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

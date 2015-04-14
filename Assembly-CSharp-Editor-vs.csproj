@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\Editor\EZReplayManagerEditor.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\Editor\PropertyEditor.cs" />
      <Compile Include="Assets\Plugin\ThirdParty\NGUI\Examples\Scripts\InventorySystem\Editor\InvDatabaseInspector.cs" />
      <Compile Include="Assets\Plugin\ThirdParty\NGUI\Examples\Scripts\InventorySystem\Editor\InvFindItem.cs" />
      <Compile Include="Assets\Plugin\ThirdParty\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
@@ -143,6 +145,7 @@
      <None Include="Assets\Plugin\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Plugin\ThirdParty\EZReplayManager\Standard Assets\Skyboxes\skybox info.txt" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
@@ -162,8 +165,12 @@
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\Gem Shader\diamond shader.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Shaders\Unlit - Transparent Gray.shader" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>E:/Demo/CQDemo/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
  <HintPath>E:/Demo/CQDemo/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>

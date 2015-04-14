@@ -46,6 +46,32 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example1\scripts\Cam.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example1\scripts\DrawLines.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example1\scripts\Game.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example1\scripts\Heli2Record.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example1\scripts\HeliMovement.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\Gem Shader\Example\GemSpawner.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\MouseLook.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\scripts\BaseMouseLook.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\scripts\DummyAI.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\scripts\Monitor.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\scripts\MouseOrbitZoom.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\scripts\Player.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\scripts\Projectile.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\classes\EZR_Clone.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\classes\EZR_ReflectionLibrary.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\classes\EZReplayManager.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\classes\Object2PropertiesMapping.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\classes\Object2PropertiesMappingListWrapper.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\classes\SavedState.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\classes\SerQuaternion.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\classes\SerVector3.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\classes\SerializeableDictionary.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\enums\ActionMode.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\enums\ChildIdentificationMode.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\extension\scripts\enums\ViewMode.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\general\Object2Record.cs" />
      <Compile Include="Assets\Plugin\ThirdParty\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\Plugin\ThirdParty\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\Plugin\ThirdParty\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -226,6 +252,7 @@
      <None Include="Assets\Plugin\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Plugin\ThirdParty\EZReplayManager\Standard Assets\Skyboxes\skybox info.txt" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
@@ -245,6 +272,7 @@
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\Gem Shader\diamond shader.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Shaders\Unlit - Transparent Gray.shader" />
   </ItemGroup>

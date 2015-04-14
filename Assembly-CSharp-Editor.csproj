@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\Editor\EZReplayManagerEditor.cs" />
+     <Compile Include="Assets\Plugin\ThirdParty\EZReplayManager\Editor\PropertyEditor.cs" />
      <Compile Include="Assets\Plugin\ThirdParty\NGUI\Examples\Scripts\InventorySystem\Editor\InvDatabaseInspector.cs" />
      <Compile Include="Assets\Plugin\ThirdParty\NGUI\Examples\Scripts\InventorySystem\Editor\InvFindItem.cs" />
      <Compile Include="Assets\Plugin\ThirdParty\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
@@ -143,6 +145,7 @@
      <None Include="Assets\Plugin\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Plugin\ThirdParty\EZReplayManager\Standard Assets\Skyboxes\skybox info.txt" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
@@ -162,6 +165,7 @@
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Plugin\ThirdParty\EZReplayManager\example2\Gem Shader\diamond shader.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\Plugin\ThirdParty\NGUI\Examples\Shaders\Unlit - Transparent Gray.shader" />
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
@@ -180,6 +184,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{8A4E5D9B-EFFB-18AA-C044-0056294981E7}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{872C2363-D53C-3DE5-04B8-DC2303EE2F99}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
